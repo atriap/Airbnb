@@ -1,6 +1,25 @@
 # Understanding Analytics : Airbnb Tokyo
 
-# Getting The Data
+This is a self-made project with Airbnb Tokyo as the subject of my analysis, simply because i am curious about its analytics and Airbnb has the data opensource in  [Inside Airbnb](http://insideairbnb.com/).
+
+## Overview
+
+![Dashboard 1 (1)](https://user-images.githubusercontent.com/104981673/197123966-7d788621-fcc7-4406-abef-4393895fb170.png)
+
+
+
+This visualization was made with Tableau. However, for further exploration, I used R programming language with Rstudio to analyze the data i obtained.
+To answer my curiosity, I made several questions, as follows:
+
+1. How many accomodations are in Tokyo?
+2. Which Tokyo neighbourhood have the most accomodations?
+3. Which Tokyo neighbourhood most possible to earn the highest revenue?
+4. Which accommodation type is the most common in Tokyo?
+
+
+
+
+## Getting The Data
 
 ```r
 library(tidyr)
@@ -32,6 +51,8 @@ summarise_all(funs(sum([is.na](http://is.na/)(.))))
 
 ## Data Cleaning
 
+For better, easier, and effective analysis, data cleaning was conducted by several steps:
+
 ```r
 # Replace NA with 0 and drop unnecessary column
 
@@ -48,7 +69,9 @@ summarise_all(funs(sum([is.na](http://is.na/)(.))))
 dim(airbnb_tokyo)
 ```
 
-# Understanding the Data
+## Understanding the Data
+
+### Data Description
 
 ```r
 desc_tokyo <- airbnb_tokyo %>%
@@ -65,7 +88,9 @@ desc_tokyo <- data.frame(desc_tokyo)
 desc_tokyo
 ```
 
-## How many accomodations are listed in Airbnb Tokyo?
+## Answering the Questions
+
+### How many accomodations are listed in Airbnb Tokyo?
 
 ```r
 accomodations <- airbnb_tokyo %>%
@@ -77,7 +102,7 @@ View(accomodations)
 dim(accomodations)
 ```
 
-## Which Tokyo neighbourhood have the most accomodations?
+### Which Tokyo neighbourhood have the most accomodations?
 
 ```r
 most_listings <- airbnb_tokyo %>%
@@ -92,7 +117,7 @@ dim(most_listings)
 head(most_listings, 10)
 ```
 
-## Which Tokyo neighbourhood most possible to earn the highest revenue?
+### Which Tokyo neighbourhood most possible to earn the highest revenue?
 
 ```r
 est_revenue <- airbnb_tokyo %>%
@@ -109,7 +134,7 @@ dim(est_revenue)
 head(est_revenue, 10)
 ```
 
-## Which accommodation type is the most common in Tokyo?
+### Which accommodation type is the most common in Tokyo?
 
 ```r
 common_type <- airbnb_tokyo %>%
