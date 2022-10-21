@@ -8,7 +8,7 @@ This is a self-made project with Airbnb Tokyo as the subject of my analysis, sim
 
 
 
-This visualization was made with Tableau. However, for further exploration, I used R programming language with Rstudio to analyze the data i obtained.
+This visualization was made with Tableau, check the interactive dashboard [here](https://public.tableau.com/app/profile/atrria/viz/DataVizDashboardAirbnb/Dashboard1). However, for further exploration, I used R programming language with Rstudio to analyze the data i obtained.
 To answer my curiosity, I made several questions, as follows:
 
 1. How many accomodations are in Tokyo?
