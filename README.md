@@ -15,6 +15,9 @@ To answer my curiosity, I made several questions, as follows:
 2. Which Tokyo neighbourhood have the most accomodations?
 3. Which Tokyo neighbourhood most possible to earn the highest revenue?
 4. Which accommodation type is the most common in Tokyo?
+5. What is the most favourite room type?
+6. Is there a host who have more than one listings?
+7. What is the most common minimum nights required by hosts?
 
 
 
@@ -240,8 +243,7 @@ View(avg_night)
 
 ## how is the correlation between minimum nights and booked accomodation? if there is, how many nights is the most interesting?
 
-based on minimum_nights and review, orang paling suka brp malem
-
+based on minimum_nights and review, how many nights are the most booked
 ```r
 popular_neighbourhood <- airbnb_tokyo %>%
 filter(last_review >= as.Date("2021-09-22"), number_of_reviews > 0) %>%
@@ -273,7 +275,7 @@ View(most_popular_night)
 most_popular_night
 ```
 
-## REVIEWS
+## How about the reviews?
 
 ```r
 # importing the dataset
@@ -333,7 +335,3 @@ arrange(desc(date))
 
 View(review2022_latest)
 ```
-
-# DATA VISUALIZATION
-
-#pandemic correlation vizualisation (2020,2021, 2022)
