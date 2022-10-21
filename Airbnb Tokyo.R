@@ -273,7 +273,7 @@ avg_night
 
 popular_neighbourhood <- airbnb_tokyo %>%
   filter(last_review >= as.Date("2021-09-22"), number_of_reviews > 0) %>%
-  select(c(neighbourhood, minimum_nights, number_of_reviews)) %>%
+  select(c(neighbourhood, number_of_reviews)) %>%
   group_by(neighbourhood) %>%
   summarise(across(c(number_of_reviews), sum)) %>%
   arrange(desc(number_of_reviews))
@@ -384,6 +384,18 @@ review2022_latest
 
 ```
 
+```{r}
+library(dplyr)
+new <- left_join(airbnb_tokyo, reviews_detailed, by = c("id" = "listing_id"))
+head(new)
+
+#menyimpan summary ke excel
+
+install.packages("data.table")
+library(data.table)
+
+fwrite(new, "C:\\Users\\ASUS\\Desktop\\Data Analyst Portofolio\\Airbnb Tokyo\\listings_reviews.csv")
+```
 
 
 
