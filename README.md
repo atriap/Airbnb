@@ -4,7 +4,8 @@ This is a self-made project with Airbnb Tokyo as the subject of my analysis, sim
 
 ## Overview
 
-![Dashboard 1 (1)](https://user-images.githubusercontent.com/104981673/197123966-7d788621-fcc7-4406-abef-4393895fb170.png)
+![Dashboard 1 (2)](https://user-images.githubusercontent.com/104981673/198357023-068ad1d5-1fdd-410f-97d5-6b0b230f0831.png)
+
 
 
 
