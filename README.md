@@ -157,7 +157,7 @@ pivot_longer(cols = everything()) %>%
 group_by(neighbourhood) %>%
 summarise(Sum = sum(value)) %>%
 column_to_rownames('name') %>%
-t                                           # dikasih t supaya lebih mudah diliatnya
+t                                           
 ```
 
 ## What is the most favourite room type?
