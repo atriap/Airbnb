@@ -4,12 +4,13 @@ This is a self-made project with Airbnb Tokyo as the subject of my analysis, sim
 
 ## Overview
 
-![Dashboard 1 (2)](https://user-images.githubusercontent.com/104981673/198357023-068ad1d5-1fdd-410f-97d5-6b0b230f0831.png)
+![Dashboard 2](https://user-images.githubusercontent.com/104981673/204445849-1c37bc47-0d32-4483-b024-5e3a8f514994.png)
 
 
 
 
-This visualization was made with Tableau, check the interactive dashboard [here](https://public.tableau.com/app/profile/atrria/viz/DataVizDashboardAirbnb/Dashboard1). However, for further exploration, I used R programming language with Rstudio to analyze the data i obtained.
+
+This visualization was made with Tableau, check the interactive dashboard [here](https://public.tableau.com/app/profile/atrria/viz/AirbnbTokyo_16696444219970/Dashboard2). However, for further exploration, I used R programming language with Rstudio to analyze the data i obtained.
 To answer my curiosity, I made several questions, as follows:
 
 1. How many accomodations are in Tokyo?
