@@ -1,4 +1,4 @@
-# Understanding Analytics : Airbnb Tokyo
+# Exploratory Analysis : Airbnb Tokyo
 
 This is a self-made project with Airbnb Tokyo as the subject of my analysis, simply because i am curious about its analytics and Airbnb has the data opensource in  [Inside Airbnb](http://insideairbnb.com/).
 
