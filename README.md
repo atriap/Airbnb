@@ -3,9 +3,7 @@
 This is a self-made project with Airbnb Tokyo as the subject of my analysis, simply because i am curious about its analytics and Airbnb has the data opensource in  [Inside Airbnb](http://insideairbnb.com/).
 
 ## Overview
-
-![Dashboard 2](https://user-images.githubusercontent.com/104981673/204445849-1c37bc47-0d32-4483-b024-5e3a8f514994.png)
-
+![Frame 47](https://user-images.githubusercontent.com/104981673/204457507-513a90b9-6698-466f-9207-0c7898ee471b.png)
 
 
 
